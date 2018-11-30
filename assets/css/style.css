@@ -1,0 +1,86 @@
+body {
+  font-family: Roboto;
+  /* background: #f79d00;  fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #64f38c, #f79d00); 
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* https://uigradients.com/#Sherbert  */
+}
+
+h1 {
+  background: #2980b9;
+  color: white;
+  margin: 0;
+  padding: 0.1em 0.8em; 
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  color: #656565;
+  height: 2.5em;
+  line-height: 2.5em;
+}
+
+li:nth-child(2n) {
+  background: #f7f7f7;
+
+}
+
+input {
+  font-size: 1.1em;
+  background: #f7f7f7;
+  width: 100%;
+  padding: 0.8em 0.8em 0.8em 1.2em;
+  box-sizing: border-box;
+  color: #2980b9;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+input:focus {
+  background: white;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+span {
+  background: #e74c3c;
+  height: 2.5em;
+  margin-right: 1.2em;
+  text-align: center;
+  color: white;
+  /* hidden until hover */
+  width: 0em;
+  display: inline-block;
+  transition: linear 0.2s;
+  opacity: 0;
+}
+
+span:hover {
+  width: 2.5em;
+  opacity: 1;
+}
+.container {
+  background: #f7f7f7;
+  /* border: 2px solid gray; */
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  margin: 5em auto;
+  width: 40vw;
+}
+
+.completed {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.fa-plus {
+  float: right;
+}
